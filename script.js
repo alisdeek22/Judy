@@ -98,7 +98,7 @@
     const errorMsg = document.getElementById('error-msg');
 
     function checkPassword() {
-      if (passwordInput.value.trim() === '2012199') {
+      if (passwordInput.value.trim() === '2012159') {
         navigateTo('letter-page');
         showConfetti();
       } else {
@@ -260,4 +260,5 @@
       passwordInput.value = '';
 
       navigateTo('password-page');
+
     }
